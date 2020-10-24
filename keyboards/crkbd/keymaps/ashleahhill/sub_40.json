@@ -1,7 +1,7 @@
 {
     "version": 1,
     "notes": "",
-    "documentation": "",
+    "documentation": "\"This file is a QMK Configurator export. You can import this at <https://config.qmk.fm>. It can also be used directly with QMK's source code.\n\nTo setup your QMK environment check out the tutorial: <https://docs.qmk.fm/#/newbs>\n\nYou can convert this file to a keymap.c using this command: `qmk json2c {keymap}`\n\nYou can compile this keymap using this command: `qmk compile {keymap}`\"\n",
     "keyboard": "crkbd/rev1/common",
     "keymap": "sub_40",
     "layout": "LAYOUT_split_3x6_3",
@@ -44,11 +44,11 @@
             "KC_SLSH",
             "RSFT_T(KC_ENT)",
             "MO(2)",
+            "KC_NO",
             "LT(4,KC_SPC)",
-            "MO(1)",
+            "LT(4,KC_SPC)",
             "KC_NO",
-            "KC_NO",
-            "KC_NO"
+            "MO(1)"
         ],
         [
             "KC_LALT",
@@ -88,9 +88,9 @@
             "KC_NO",
             "KC_RSFT",
             "MO(3)",
-            "KC_ENT",
-            "KC_TRNS",
             "KC_NO",
+            "KC_TRNS",
+            "KC_TRNS",
             "KC_NO",
             "KC_NO"
         ],
@@ -131,12 +131,12 @@
             "KC_NO",
             "KC_NO",
             "KC_NO",
+            "KC_NO",
+            "KC_NO",
             "KC_TRNS",
-            "KC_BSPC",
-            "MO(3)",
+            "KC_TRNS",
             "KC_NO",
-            "KC_NO",
-            "KC_NO"
+            "MO(3)"
         ],
         [
             "RGB_VAI",
@@ -177,10 +177,10 @@
             "KC_NO",
             "KC_TRNS",
             "KC_NO",
-            "KC_TRNS",
             "KC_NO",
             "KC_NO",
-            "KC_NO"
+            "KC_NO",
+            "KC_TRNS"
         ],
         [
             "KC_F1",
@@ -220,11 +220,11 @@
             "KC_NO",
             "KC_SLEP",
             "KC_TRNS",
+            "KC_NO",
             "KC_TRNS",
             "KC_TRNS",
             "KC_NO",
-            "KC_NO",
-            "KC_NO"
+            "KC_TRNS"
         ],
         [
             "RESET",
