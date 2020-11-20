@@ -74,11 +74,11 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       XXXXXXX, XXXXXXX, KC_LCTL, KC_LGUI, LOWER, MO(_FUNC),                      MO(_FUNC), RAISE, KC_RGUI, KC_RCTL, XXXXXXX, XXXXXXX\
   //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
   ),
-
+ 
   [_FUNC] = LAYOUT_planck_grid( \
   //,-----------------------------------------------------.                                  ,-----------------------------------------------------.
       KC_F1,   KC_F2,                KC_F3,               KC_F4,   KC_F5, KC_F6,              KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,\
-      KC_NO,   KC_NO,                KC_NO,               KC_NO,   KC_NO, KC_NO,              KC_NO,   KC_NO,   KC_NO,   KC_NO,   GUI_ON,  GUI_OFF,\
+      KC_NO,   KC_NO,                KC_NO,               KC_NO,   KC_NO, KC_NO,              KC_NO,   KC_NO,   KC_NO,   AG_NORM,   GUI_ON,  GUI_OFF,\
       KC_NO,   KC_NO,                KC_NO,               KC_NO,   KC_NO, KC_NO,              KC_NO,   KC_NO,   KC_NO,   KC_NO,   KC_MNXT, KC_MPLY, \
       XXXXXXX, LCTL(LGUI(KC_LEFT)), LCTL(LGUI(KC_RIGHT)), KC_LGUI, LOWER, _______,            _______, RAISE,   KC_RGUI, KC_VOLD, KC_VOLU, KC_MUTE\
   //|--------+--------+--------+--------+--------+--------+--------|                |--------+--------+--------+--------+--------+--------+--------|
