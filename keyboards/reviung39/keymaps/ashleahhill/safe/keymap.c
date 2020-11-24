@@ -78,6 +78,6 @@ layer_state_t layer_state_set_user(layer_state_t state) {
         rgblight_setrgb (0x1F,  0x2E, 0xFF);
         break;
     }
-
-  return update_tri_layer_state(state, _LOWER, _RAISE, _ADJUST);
+    return state;
+//   return update_tri_layer_state(state, _LOWER, _RAISE, _ADJUST);
 }
