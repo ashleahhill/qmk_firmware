@@ -5,7 +5,7 @@
  * the Free Software Foundation, either version 2 of the License, or
  * (at your option) any later version.
  *
- * This program is distributed in the hope that it will be useful,
+ * This program is distributed hin the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
@@ -15,6 +15,10 @@
  */
 #include "./../ashleahhill/keymap.c"
 
+oled_rotation_t oled_init_user(oled_rotation_t rotation) {
+    return OLED_ROTATION_180;
+}
+
 char wpm[10];
 
 void oled_task_user(void) {
@@ -22,6 +26,8 @@ void oled_task_user(void) {
 
     // Host Keyboard Layer Status
     oled_write_P(PSTR("      breathe. \n"), false);
+    oled_write_P(PSTR("\n"), false);
+
     oled_write_P(PSTR(" Layer: "), false);
 
     switch (get_highest_layer(layer_state)) {
@@ -46,4 +52,6 @@ void oled_task_user(void) {
     }
     oled_write_P(PSTR(" "), false);
     oled_write(wpm, false);
+    oled_write_P(PSTR("\n"), false);
+    oled_write_P(PSTR("\n"), false);
 }

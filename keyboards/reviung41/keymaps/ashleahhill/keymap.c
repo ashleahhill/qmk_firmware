@@ -58,7 +58,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_FN] = LAYOUT_reviung41(
     KC_F1,   KC_F2,   KC_F3,   KC_F4,   KC_F5,   KC_F6,     KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,
-    KC_LGUI, KC_NO,   KC_NO,   KC_NO,   RGB_TOG, RGB_VAD, 	RGB_SAD, RGB_HUD, KC_NO,  KC_NO,   KC_NO,   KC_NO,   KC_CTL,
+    KC_LGUI, KC_NO,   KC_NO,   KC_NO,   RGB_TOG, RGB_VAD, 	RGB_SAD, RGB_HUD, KC_NO,  KC_NO,   KC_NO,   KC_RCTL,
     KC_LCTL, KC_NO,   KC_NO,   KC_NO,   KC_NO,   RGB_M_P, 	RGB_M_B, RGB_M_K, RGB_M_R,   KC_NO,   KC_NO,   KC_RCTL,
     KC_TRNS, KC_TRNS,  KC_TRNS, KC_ENT,  KC_TRNS
   ),

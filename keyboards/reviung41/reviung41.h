@@ -16,6 +16,8 @@
 #pragma once
 
 #include "quantum.h"
+#include <stdio.h>
+
 
 /* This a shortcut to help you visually see your layout.
  *
